@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --cor-white: #fff;
+    --cor-red: rgb(218, 0, 0);
+    --cor-blue: rgb(14, 14, 216);
+    --cor-black: #333;
+    --background-1: url("https://images.alphacoders.com/102/1028700.jpg");
+    --background-2: url("https://th.bing.com/th/id/R.4dd75d4c948d3b4057adaa61295e8e6e?rik=yhQWa4mORZWmaA&pid=ImgRaw&r=0");
+    --background-3: url("https://2.bp.blogspot.com/-ZIE0B6jVndY/W-a7qjx_O8I/AAAAAAAASxs/GnTvuYi70kYQYuN3KwJ-NUaUkfTkF93fQCLcBGAs/s2560/captain-america-2560x1440-superheroes-marvel-comics-4k-12761.jpg");
+    --background-4: url("https://wallpapercave.com/wp/wp2557094.jpg");
+}
+
+html, body{
+    background-color: rgba(0, 0, 0, 0.736);
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px 15px 60px;
+    width: 100%;
+    background-color: #1e1e1e;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.382);
+}
+
+header > a{
+    color: var(--cor-white);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+nav{
+    padding: 10px;
+}
+
+nav > a{
+    color: var(--cor-white);
+    font-size: 17px;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+nav > a:hover{
+    background: linear-gradient(to left, var(--cor-black), var(--cor-red));;
+}
+
+.inicio{
+    width: 100%;
+    padding: 90px 60px 40px 60px;
+}
+
+.inicio > figure{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio img{
+    width: 250px;
+    height: 250px;
+    margin: 30px 0 40px 0;
+}
+
+.inicio > h1{
+    color: var(--cor-white);
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.inicio > p{
+    color: var(--cor-white);
+    width: 100%;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.inicio > h2{
+    color: var(--cor-white);
+    text-align: center;
+}
+
+/*------------------------------------------------------*/
+.homem_aranha{
+    background: var(--background-1);
+}
+.homem_de_ferro{
+    background: var(--background-2);
+}
+.capitao_america{
+    background: var(--background-3);
+}
+.thor{
+    background: var(--background-4);
+}
+/*------------------------------------------------------*/
+
+.background_paralax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.background_paralax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+}
+
+.background_paralax > h2{
+    color: var(--cor-white);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+
+.perfil{
+    width: 100%;
+    padding: 40px 60px 40px 60px;
+}
+
+.perfil > h1{
+    color: var(--cor-white);
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.perfil > p{
+    color: var(--cor-white);
+    width: 100%;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+footer{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #000;
+}
+
+footer > p{
+    color: var(--cor-white);
+    font-size: 20px;
+    font-weight: 600;
+}
