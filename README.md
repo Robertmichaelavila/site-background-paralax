@@ -1,8 +1,8 @@
-<img src="https://www.pngfind.com/pngs/m/683-6834215_html-css-js-icon-hd-png-download.png" alt="Ícone do HTML, CSS3 e JavaScript" width="300" height="150">
+<img src="https://www.seekpng.com/png/detail/274-2742001_fix-html-css-jquery-issues-in-reasonable-price.png" alt="Ícone do HTML, CSS3 e JavaScript" width="300" height="150">
 
-# Nome do Projeto
+# Site com fundo Paralax
 
-Breve descrição do projeto. Este site foi desenvolvido utilizando HTML, CSS e JavaScript para criar um efeito de parallax no fundo, proporcionando uma experiência visual atraente e dinâmica.
+Site simples com HTML5, CSS3 e JavaScript para implementação de fundo animado com efeito paralax.
 
 ## Tecnologias Utilizadas
 
@@ -30,11 +30,19 @@ Breve descrição do projeto. Este site foi desenvolvido utilizando HTML, CSS e 
    git clone https://github.com/seu-usuario/nome-do-projeto.git
    cd nome-do-projeto
 
+2. Abra o arquivo index.html em seu navegador:
+   ```bash
+   open index.html
+   
+- ou no Windows:
+  ```bash
+  start index.html
+
 ### Estrutura do Projeto
 
    - Exemplo:
         ```bash
-      nome-do-projeto/
+      paralax/
       │
       ├── css/                 # Arquivos de estilo
       │   ├── styles.css       # Estilos principais do site
@@ -63,4 +71,4 @@ Coloque uma captura de tela do site ou uma demonstração animada do efeito para
 
 ## Licença
 
-Este projeto está licenciado sob a `licença` MIT. Veja o arquivo LICENSE para mais detalhes.
+Este projeto está licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
