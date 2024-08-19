@@ -30,6 +30,23 @@ Breve descrição do projeto. Este site foi desenvolvido utilizando HTML, CSS e 
    git clone https://github.com/seu-usuario/nome-do-projeto.git
    cd nome-do-projeto
 
+### Estrutura do Projeto
+
+nome-do-projeto/
+│
+├── css/                 # Arquivos de estilo
+│   ├── styles.css       # Estilos principais do site
+│   └── parallax.css     # Estilos específicos para o efeito parallax
+│
+├── js/                  # Scripts JavaScript (se aplicável)
+│   └── main.js          # Scripts principais
+│
+├── images/              # Imagens usadas no site
+│   ├── background.jpg   # Imagem de fundo para o efeito parallax
+│   └── logo.png         # Logo do site
+│
+├── index.html           # Página principal do site
+└── README.md            # Este arquivo
 
 ### Customização
 Para customizar o site, você pode modificar os seguintes arquivos:
