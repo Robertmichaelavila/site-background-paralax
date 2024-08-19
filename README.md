@@ -27,7 +27,7 @@ Site simples com HTML5 e CSS3 para implementação de fundo animado com efeito p
 
    ```bash
    git clone https://github.com/seu-usuario/site-background-paralax.git
-   cd nome-do-projeto
+   cd site-background-paralax
 
 2. Abra o arquivo index.html em seu navegador:
    ```bash
