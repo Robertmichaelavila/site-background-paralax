@@ -2,13 +2,12 @@
 
 # Site com fundo Paralax
 
-Site simples com HTML5, CSS3 e JavaScript para implementação de fundo animado com efeito paralax.
+Site simples com HTML5 e CSS3 para implementação de fundo animado com efeito paralax.
 
 ## Tecnologias Utilizadas
 
 - **HTML5**: Estrutura do site.
 - **CSS3**: Estilização e aplicação do efeito parallax.
-- **JavaScript**: Funcionalidades interativas (se aplicável).
 
 ## Funcionalidades
 
@@ -27,7 +26,7 @@ Site simples com HTML5, CSS3 e JavaScript para implementação de fundo animado 
 1. Clone o repositório para a sua máquina local:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-projeto.git
+   git clone https://github.com/seu-usuario/site-background-paralax.git
    cd nome-do-projeto
 
 2. Abra o arquivo index.html em seu navegador:
@@ -42,32 +41,21 @@ Site simples com HTML5, CSS3 e JavaScript para implementação de fundo animado 
 
    - Exemplo:
         ```bash
-      paralax/
+      site-background-paralax/
       │
-      ├── css/                 # Arquivos de estilo
-      │   ├── styles.css       # Estilos principais do site
-      │   └── parallax.css     # Estilos específicos para o efeito parallax
+      ├── styles.css                        # Estilos principais do site
       │
-      ├── js/                  # Scripts JavaScript (se aplicável)
-      │   └── main.js          # Scripts principais
+      ├── img/                              # Imagens usadas no site
+      │   ├── Logo_Avengers-Photoroom.png   # Logo do site
       │
-      ├── images/              # Imagens usadas no site
-      │   ├── background.jpg   # Imagem de fundo para o efeito parallax
-      │   └── logo.png         # Logo do site
-      │
-      ├── index.html           # Página principal do site
-      └── README.md            # Este arquivo
+      ├── index.html                        # Página principal do site
+      └── README.md                         # Este arquivo
 
 ## Customização
 
 Para customizar o site, você pode modificar os seguintes arquivos:
-   - css/styles.css: Personalize o layout, cores e fontes do site.
-   - css/parallax.css: Ajuste as propriedades do efeito parallax, como velocidade e comportamento.
+   - styles.css: Personalize o layout, cores e fontes do site, Ajuste as propriedades do efeito parallax, como velocidade e comportamento.
    - images/: Substitua as imagens existentes por suas próprias imagens.
-
-## Demonstração
-
-Coloque uma captura de tela do site ou uma demonstração animada do efeito parallax.
 
 ## Licença
 
