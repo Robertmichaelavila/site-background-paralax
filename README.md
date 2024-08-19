@@ -50,17 +50,17 @@ Breve descrição do projeto. Este site foi desenvolvido utilizando HTML, CSS e 
       ├── index.html           # Página principal do site
       └── README.md            # Este arquivo
 
-### Customização
+## Customização
+
 Para customizar o site, você pode modificar os seguintes arquivos:
+   - css/styles.css: Personalize o layout, cores e fontes do site.
+   - css/parallax.css: Ajuste as propriedades do efeito parallax, como velocidade e comportamento.
+   - images/: Substitua as imagens existentes por suas próprias imagens.
 
-css/styles.css: Personalize o layout, cores e fontes do site.
-css/parallax.css: Ajuste as propriedades do efeito parallax, como velocidade e comportamento.
-images/: Substitua as imagens existentes por suas próprias imagens.
-
-### Demonstração
+## Demonstração
 
 Coloque uma captura de tela do site ou uma demonstração animada do efeito parallax.
 
-### Licença
+## Licença
 
 Este projeto está licenciado sob a `licença` MIT. Veja o arquivo LICENSE para mais detalhes.
